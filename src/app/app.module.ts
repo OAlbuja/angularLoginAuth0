@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 
+
 // Import the module from the SDK
 import { AuthModule } from '@auth0/auth0-angular';
 
@@ -20,8 +21,8 @@ import { AuthModule } from '@auth0/auth0-angular';
     AppRoutingModule,
      // Import the module into the application, with configuration
      AuthModule.forRoot({
-      domain: 'estadistica.auth0.com',
-      clientId: 'knBYg5PAoX8zjj7uG9ShFEMQuqtAUGAQ'
+      domain: 'dev-3sioe7wpqz8uz0cz.us.auth0.com',
+      clientId: 'CluuXWSxLuj9orr388ZkLjxXtxriNlwU'
     }),
   ],
   providers: [],
